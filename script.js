@@ -1,17 +1,14 @@
 function init(){
-//add your javascrip between these two lines of code
-  var entrybuttonDiv = document.getElementById('alert-me');
+  var entrybuttonDiv = document.getElementById('entrybutton');
   
-  entrybuttonDiv.addEventListener('click', function() {    
-	console.log('Stephanie H: This is a test');
+  function showMeText(){
+    var textbox = document.getElementById('entryinput');
 	
+	alert('Stephanie H: ' + textbox);
+
+    document.getElementById('textoutput').innerHTML = textbox;
 	
   });
 }  
-
-
-
-
-
 
 window.addEventListener('load', init);
