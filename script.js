@@ -1,6 +1,6 @@
 function init(){
 //add your javascrip between these two lines of code
-  var entrybuttonDiv = document.getELementById('alert-me');
+  var entrybuttonDiv = document.getElementById('alert-me');
   
   entrybuttonDiv.addEventListener('alert', myEventFunction() {
     
