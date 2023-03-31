@@ -1,8 +1,8 @@
 function init(){
-  var entrybuttonDiv = document.getElementById('entrybutton');
-  
-  function showMeText(){
-    var textbox = document.getElementById('entryinput');
+	
+  document.getElementByID('entrybutton').addEventListener('click', function(){
+	  
+    var textbox = document.getElementById('entryinput').value;
 	
 	alert('Stephanie H: ' + textbox);
 
