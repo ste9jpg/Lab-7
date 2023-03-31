@@ -1,13 +1,14 @@
 function init(){
-  var button = document.getElementById('entrybutton');
+	
+  document.getElementByID('entrybutton').addEventListener('click', function(){
+	  
+    var textbox = document.getElementById('entryinput').value;
+	
+	alert('Stephanie H: ' + textbox);
 
-  function showMeText(){
-    var textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
-    alert("Daniel Krieglstein: " + textbox.value);
-  }
+	
+  });
+}  
 
-  button.addEventListener('click', showMeText);
-  }
-  
 window.addEventListener('load', init);
