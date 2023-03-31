@@ -2,9 +2,10 @@ function init(){
 //add your javascrip between these two lines of code
   var entrybuttonDiv = document.getElementById('alert-me');
   
-  entrybuttonDiv.addEventListener('alert', myEventFunction() {
-    
+  entrybuttonDiv.addEventListener('click', function() {    
 	console.log('Stephanie H: This is a test');
+	
+	
   });
 }  
 
